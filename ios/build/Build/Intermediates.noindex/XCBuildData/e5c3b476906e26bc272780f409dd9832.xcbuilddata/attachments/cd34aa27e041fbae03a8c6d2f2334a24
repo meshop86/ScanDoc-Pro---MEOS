@@ -1,0 +1,179 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/camera_avfoundation-primary.dia",
+    "emit-module-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/camera_avfoundation-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/camera_avfoundation-primary-emit-module.dia",
+    "pch" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/camera_avfoundation-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/camera_avfoundation-primary.swiftdeps"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/AssetWriter.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/AssetWriter~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/Camera.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/Camera~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CameraConfiguration.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraConfiguration~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CameraDeviceDiscoverer.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraDeviceDiscoverer~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CameraPermissionManager.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPermissionManager~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CameraPlugin.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CameraPlugin~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CaptureConnection.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureConnection~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CaptureDevice.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDevice~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CaptureDeviceFormat.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureDeviceFormat~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CaptureOutput.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureOutput~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/CaptureSession.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/CaptureSession~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/DefaultCamera.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DefaultCamera~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/DeviceOrientationProvider.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/DeviceOrientationProvider~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/FormatUtils.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/FormatUtils~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/MediaSettingsAVWrapper.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/MediaSettingsAVWrapper~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/PermissionServicing.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/PermissionServicing~partial.swiftmodule"
+  },
+  "/Users/admin/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.22+8/ios/camera_avfoundation/Sources/camera_avfoundation/QueueUtils.swift" : {
+    "const-values" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.swiftconstvalues",
+    "dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.d",
+    "diagnostics" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.o",
+    "llvm-bc" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.bc",
+    "object" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.o",
+    "swift-dependencies" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5.swiftdeps",
+    "swiftmodule" : "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/Objects-normal/arm64/QueueUtils-7707e713f83fc60974eb5c7d198805c5~partial.swiftmodule"
+  }
+}

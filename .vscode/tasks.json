@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "flutter run iphone17pro",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"EC5951AE-6BAD-4F2A-AA3E-2EB442C6A1A4"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run on iPhone 17 Pro",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"EC5951AE-6BAD-4F2A-AA3E-2EB442C6A1A4"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

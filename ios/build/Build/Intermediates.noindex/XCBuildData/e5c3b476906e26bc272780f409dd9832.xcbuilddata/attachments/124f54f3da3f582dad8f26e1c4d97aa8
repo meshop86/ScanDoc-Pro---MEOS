@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/admin/project/bien so xe/ios/build/Build/Products/Debug-iphoneos/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/sqlite3_flutter_libs.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/admin/project/bien so xe/ios/build/Build/Products/Debug-iphoneos/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "sqlite3_flutter_libs-Swift.h",
+      "external-contents": "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/sqlite3_flutter_libs.build/unextended-interface-header.h",
+    }]
+  }]
+}

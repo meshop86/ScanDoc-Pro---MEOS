@@ -1,0 +1,4 @@
+
+module camera_avfoundation.__Swift {
+  exclude header "camera_avfoundation-Swift.h"
+}

@@ -1,0 +1,284 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+
+import '../../data/database/database.dart' as db;
+import '../../routing/routes.dart';
+import 'case_providers.dart';
+
+/// Phase 13.1: Home Screen - Case Library (Professional Document Scanner)
+class HomeScreen extends ConsumerWidget {
+  const HomeScreen({super.key});
+
+  Future<void> _createNewCase(BuildContext context, WidgetRef ref) async {
+    final nameController = TextEditingController();
+    final descController = TextEditingController();
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Create New Case'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: nameController,
+              decoration: const InputDecoration(
+                labelText: 'Case Name',
+                hintText: 'e.g., House Purchase Documents',
+              ),
+              autofocus: true,
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: descController,
+              decoration: const InputDecoration(
+                labelText: 'Description (optional)',
+                hintText: 'Add notes about this case',
+              ),
+              maxLines: 2,
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('Cancel'),
+          ),
+          ElevatedButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('Create'),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed != true) return;
+    
+    final caseName = nameController.text.trim();
+    if (caseName.isEmpty) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Please enter a case name')),
+        );
+      }
+      return;
+    }
+
+    // TODO: Implement case creation via database
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('✓ Created case: $caseName'),
+          backgroundColor: Colors.green,
+        ),
+      );
+      // Refresh case list
+      final _ = ref.refresh(caseListProvider);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final casesAsync = ref.watch(caseListProvider);
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Cases'),
+        elevation: 0,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.search),
+            onPressed: () {
+              // TODO: Implement search
+            },
+            tooltip: 'Search',
+          ),
+        ],
+      ),
+      body: Column(
+        children: [
+          // Filter bar
+          Container(
+            width: double.infinity,
+            color: Colors.grey.shade100,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  FilterChip(
+                    label: const Text('All Cases'),
+                    selected: true,
+                    onSelected: (_) {},
+                  ),
+                  const SizedBox(width: 8),
+                  FilterChip(
+                    label: const Text('Active'),
+                    selected: false,
+                    onSelected: (_) {},
+                  ),
+                  const SizedBox(width: 8),
+                  FilterChip(
+                    label: const Text('Completed'),
+                    selected: false,
+                    onSelected: (_) {},
+                  ),
+                  const SizedBox(width: 8),
+                  FilterChip(
+                    label: const Text('Archived'),
+                    selected: false,
+                    onSelected: (_) {},
+                  ),
+                ],
+              ),
+            ),
+          ),
+          
+          // Cases list
+          Expanded(
+            child: casesAsync.when(
+              data: (cases) {
+                if (cases.isEmpty) {
+                  return Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.inbox, size: 64, color: Colors.grey.shade400),
+                        const SizedBox(height: 16),
+                        Text(
+                          'No cases yet',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.grey.shade700,
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          'Create a case to organize your scanned documents',
+                          style: TextStyle(fontSize: 14, color: Colors.grey.shade500),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 24),
+                        ElevatedButton.icon(
+                          onPressed: () => _createNewCase(context, ref),
+                          icon: const Icon(Icons.add),
+                          label: const Text('Create Case'),
+                          style: ElevatedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }
+
+                return RefreshIndicator(
+                  onRefresh: () async {
+                    final _ = ref.refresh(caseListProvider);
+                  },
+                  child: ListView.builder(
+                    padding: const EdgeInsets.all(12),
+                    itemCount: cases.length,
+                    itemBuilder: (context, index) {
+                      final caseItem = cases[index];
+                      return _CaseCard(caseData: caseItem);
+                    },
+                  ),
+                );
+              },
+              loading: () => const Center(child: CircularProgressIndicator()),
+              error: (e, st) => Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.error_outline, size: 48, color: Colors.red),
+                    const SizedBox(height: 16),
+                    Text('Error: $e', style: const TextStyle(color: Colors.red)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () => _createNewCase(context, ref),
+        icon: const Icon(Icons.add),
+        label: const Text('New Case'),
+      ),
+    );
+  }
+}
+
+class _CaseCard extends ConsumerWidget {
+  const _CaseCard({required this.caseData});
+
+  final db.Case caseData;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isCompleted = caseData.status == 'completed';
+    final statusColor = isCompleted ? Colors.green : Colors.blue;
+    final statusIcon = isCompleted ? Icons.check_circle : Icons.folder;
+    final statusText = isCompleted ? 'Completed' : 'Active';
+    
+    // Fetch page count for this case
+    final pagesAsync = ref.watch(pagesByCaseProvider(caseData.id));
+
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 6),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      child: ListTile(
+        leading: Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            color: statusColor.withValues(alpha: 0.2),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(statusIcon, color: statusColor),
+        ),
+        title: Text(
+          caseData.name,
+          style: const TextStyle(fontWeight: FontWeight.w600),
+        ),
+        subtitle: pagesAsync.when(
+          data: (pages) => Text('${pages.length} pages · $statusText'),
+          loading: () => const Text('Loading...'),
+          error: (_, __) => Text(statusText),
+        ),
+        trailing: PopupMenuButton(
+          itemBuilder: (context) => [
+            const PopupMenuItem(
+              value: 'edit',
+              child: Row(
+                children: [
+                  Icon(Icons.edit, size: 18),
+                  SizedBox(width: 8),
+                  Text('Edit'),
+                ],
+              ),
+            ),
+            const PopupMenuItem(
+              value: 'delete',
+              child: Row(
+                children: [
+                  Icon(Icons.delete, size: 18, color: Colors.red),
+                  SizedBox(width: 8),
+                  Text('Delete', style: TextStyle(color: Colors.red)),
+                ],
+              ),
+            ),
+          ],
+          onSelected: (value) {
+            // TODO: Implement actions
+          },
+        ),
+        onTap: () {
+          context.push('${Routes.caseDetail}/${caseData.id}');
+        },
+      ),
+    );
+  }
+}

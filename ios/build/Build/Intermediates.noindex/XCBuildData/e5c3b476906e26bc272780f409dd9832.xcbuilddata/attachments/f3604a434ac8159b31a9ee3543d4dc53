@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/admin/project/bien so xe/ios/build/Build/Products/Debug-iphoneos/camera_avfoundation/camera_avfoundation.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/admin/project/bien so xe/ios/build/Build/Products/Debug-iphoneos/camera_avfoundation/camera_avfoundation.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "camera_avfoundation-Swift.h",
+      "external-contents": "/Users/admin/project/bien so xe/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/camera_avfoundation.build/unextended-interface-header.h",
+    }]
+  }]
+}
