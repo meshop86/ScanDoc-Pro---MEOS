@@ -1,5 +1,4 @@
-# bien_so_xe
-
+#ScanDoc Pro - Meos
 Mobile-only, offline-first app to manage scanned vehicle document sets by license plate. Data lives on-device; only online to share ZIPs.
 
 ## Stack
